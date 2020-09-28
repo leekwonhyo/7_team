@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class MyStack
+public class MyStack<T> implements Stack<T>
 {
     // instance variables - replace the example below with your own
     private int x;
