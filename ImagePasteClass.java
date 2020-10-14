@@ -8,8 +8,8 @@ import java.io.*;
 public class ImagePasteClass
 {
     public static void main(String[] args){
-        File f = new File("c:\\sunmoon.jpg");
-        File paste = new File("c:\\Result\\sunmoon-copy.jpg");
+        File f = new File("c:실습#3\\sunmoon.jpg");
+        File paste = new File("c:실습#3\\Result\\sunmoon-copy.jpg");
         
         try{
             FileInputStream fi = new FileInputStream(f);
